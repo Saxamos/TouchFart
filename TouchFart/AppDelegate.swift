@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  TouchFart
-//
-//  Created by Hung Truong on 10/27/16.
-//  Copyright © 2016 Hung Truong. All rights reserved.
-//
-
 import Cocoa
 
 @NSApplicationMain

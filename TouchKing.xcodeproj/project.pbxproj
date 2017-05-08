@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08CAD3021EC117FC00A2B9C6 /* TouchKing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TouchKing.xcodeproj; sourceTree = "<group>"; };
 		08FDAF111EBBA19D00E8C69C /* king.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = king.mp3; sourceTree = "<group>"; };
 		08FDAF121EBBA19D00E8C69C /* marek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marek.mp3; sourceTree = "<group>"; };
 		1968E27D1DC2E22100422BFE /* TouchKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,9 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08CAD3031EC117FC00A2B9C6 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1968E2741DC2E22100422BFE = {
 			isa = PBXGroup;
 			children = (
+				08CAD3021EC117FC00A2B9C6 /* TouchKing.xcodeproj */,
 				1968E27F1DC2E22100422BFE /* TouchKing */,
 				1968E27E1DC2E22100422BFE /* Products */,
 			);
@@ -72,7 +79,8 @@
 				1968E28E1DC2E22100422BFE /* TouchKingTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			path = /Users/samuelrochette/Downloads/TouchKing;
+			sourceTree = "<absolute>";
 		};
 		1968E27F1DC2E22100422BFE /* TouchKing */ = {
 			isa = PBXGroup;
@@ -86,8 +94,8 @@
 				1968E2891DC2E22100422BFE /* Info.plist */,
 			);
 			name = TouchKing;
-			path = TouchFart;
-			sourceTree = "<group>";
+			path = /Users/samuelrochette/Downloads/TouchKing/TouchKing;
+			sourceTree = "<absolute>";
 		};
 		1968E29F1DC2E8D100422BFE /* song */ = {
 			isa = PBXGroup;
@@ -168,6 +176,12 @@
 			mainGroup = 1968E2741DC2E22100422BFE;
 			productRefGroup = 1968E27E1DC2E22100422BFE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 08CAD3031EC117FC00A2B9C6 /* Products */;
+					ProjectRef = 08CAD3021EC117FC00A2B9C6 /* TouchKing.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1968E27C1DC2E22100422BFE /* TouchKing */,
@@ -334,7 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TouchFart/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TouchKing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFart";
@@ -348,7 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TouchFart/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TouchKing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFart";
